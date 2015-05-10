@@ -24,11 +24,12 @@ end
 
 group :development do
   gem 'pry'
+  gem 'unicorn'
+  gem 'kgio'
 end
 
 gem 'delayed_job_active_record'
 
-gem 'unicorn'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
